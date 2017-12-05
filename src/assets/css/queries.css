@@ -1,0 +1,148 @@
+/* Big tablets to 1200px */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Small tablets to big tablets: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+  /*---------------------------------------------*/
+  /*BASIC SETUP*/
+  /*---------------------------------------------*/
+  body {
+    font-size: 1.4rem;
+  }
+
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.6rem;
+  }
+
+  section {
+    padding: 5rem 0;
+  }
+
+  /*---------------------------------------------*/
+  /*HEADER*/
+  /*---------------------------------------------*/
+  .display-3 {
+    font-size: 4rem;
+  }
+
+  .header .jumbotron .btn-lg {
+    font-size: 1.4rem;
+  }
+
+  /*---------SKILLS----------*/
+  .section-skills h3 {
+    margin-top: 2rem;
+  }
+
+  /*---------HOBBIES----------*/
+  .section-hobbies .list-inline .list-inline-item {
+    margin-right: 1rem;
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .section-hobbies .list-inline .list-inline-item div i {
+    font-size: 2rem;
+  }
+
+  /*---------LATEST WORKS----------*/
+  .section-latest-works .btn {
+    font-size: 1.4rem;
+  }
+
+  .section-references blockquote {
+    font-size: 1.6rem;
+  }
+
+  .section-contact .btn {
+    font-size: 1.4rem;
+  }
+
+  .section-contact input[type="text"],
+  .section-contact input[type="email"],
+  .section-contact textarea {
+    font-size: 1.4rem;
+  }
+
+  /*---------CONTACT----------*/
+  .section-contact .icon-big {
+    font-size: 8rem;
+  }
+
+  /*---------------------------------------------*/
+  /*FOOTER*/
+  /*---------------------------------------------*/
+  footer {
+    text-align: center;
+  }
+
+  footer .links, footer .socials {
+    float: none;
+    margin: 1.5rem auto;
+  }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 4rem 1rem;
+  }
+
+  .display-3 {
+    font-size: 2.5rem;
+  }
+
+  .section-personal-info .media {
+    flex-direction: column !important;
+  }
+
+  .section-personal-info .media h2 {
+    margin-top: 2.5rem !important;
+  }
+
+  .section-work-experience .wx-title {
+    border-right: none;
+    text-align: left !important;
+  }
+
+  .section-hobbies .list-inline .list-inline-item {
+    margin-top: .5rem !important;
+  }
+
+  .section-latest-works .card {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .section-latest-works .btn-group {
+    margin: 0 auto;
+  }
+
+  .section-latest-works .btn-group .btn {
+    padding: 0.5rem 1rem;
+  }
+
+  .section-latest-works .btn.btn-outline-primary {
+    font-size: 1.2rem;
+    margin-right: 0 !important;
+  }
+}

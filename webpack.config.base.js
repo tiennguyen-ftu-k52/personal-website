@@ -1,9 +1,12 @@
 import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
+import ExtractTextPlugin from 'extract-text-webpack-plugin';
+import OpenBrowserPlugin from 'open-browser-webpack-plugin';
 
 const paths = {
   DIST: path.resolve(__dirname, 'dist'),
   SRC: path.resolve(__dirname, 'src'),
+  PUBLIC: path.resolve(__dirname, 'assets'),
 };
 
 export default {
@@ -17,8 +20,89 @@ export default {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
+        use: ['babel-loader'],
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.scss$/,
+        exclude: /node_modules/,
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: [
+            'css-loader',
+            {
+              loader: 'sass-loader',
+              query: {
+                sourceMap: false,
+              },
+            },
+          ],
+        }),
+      },
+      {
+        test: /\.(png|jpg|gif)$/,
         use: [
-          'babel-loader',
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192,
+              mimetype: 'image/png',
+              name: 'images/[name].[ext]',
+            },
+          },
+        ],
+      },
+      {
+        test: /\.eot(\?v=\d+.\d+.\d+)?$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'fonts/[name].[ext]',
+            },
+          },
+        ],
+      },
+      {
+        test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192,
+              mimetype: 'application/font-woff',
+              name: 'fonts/[name].[ext]',
+            },
+          },
+        ],
+      },
+      {
+        test: /\.[ot]tf(\?v=\d+.\d+.\d+)?$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192,
+              mimetype: 'application/octet-stream',
+              name: 'fonts/[name].[ext]',
+            },
+          },
+        ],
+      },
+      {
+        test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192,
+              mimetype: 'image/svg+xml',
+              name: 'images/[name].[ext]',
+            },
+          },
         ],
       },
     ],
@@ -30,5 +114,6 @@ export default {
     new HtmlWebpackPlugin({
       template: path.join(paths.SRC, 'index.html'),
     }),
+    new OpenBrowserPlugin({url: 'http://localhost:8080'}),
   ],
 };
