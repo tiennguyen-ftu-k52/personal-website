@@ -1,0 +1,30 @@
+{
+  "name": "personal-website",
+  "version": "0.0.1",
+  "description": "A personal website in order to show my knowledge & experience for web & app devlopment",
+  "main": "index.js",
+  "author": "Tien Nguyen",
+  "license": "MIT",
+  "scripts": {
+    "dev": "babel-node node_modules/.bin/webpack-dev-server --config=webpack.config.dev.js",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.5.1",
+    "html-webpack-plugin": "git+https://github.com/jantimon/html-webpack-plugin.git",
+    "prettier": "^1.9.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.5",
+    "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
