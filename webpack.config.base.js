@@ -114,6 +114,11 @@ export default {
     new HtmlWebpackPlugin({
       template: path.join(paths.SRC, 'index.html'),
     }),
+    new ExtractTextPlugin({
+      filename: './styles/style.css',
+      disable: false,
+      allChunks: true,
+    }),
     new OpenBrowserPlugin({url: 'http://localhost:8080'}),
   ],
 };
