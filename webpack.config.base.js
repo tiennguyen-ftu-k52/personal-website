@@ -2,6 +2,7 @@ import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import OpenBrowserPlugin from 'open-browser-webpack-plugin';
+import CopyWebpackPlugin from 'copy-webpack-plugin';
 
 const paths = {
   DIST: path.resolve(__dirname, 'dist'),
@@ -119,6 +120,7 @@ export default {
       disable: false,
       allChunks: true,
     }),
+    new CopyWebpackPlugin([{ from: 'src/assets', to: 'assets' }]),
     new OpenBrowserPlugin({url: 'http://localhost:8080'}),
   ],
 };
