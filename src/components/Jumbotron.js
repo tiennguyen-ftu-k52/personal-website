@@ -1,16 +1,13 @@
 import React from 'react';
-import {Segment, Container, Header, Button, Icon} from 'semantic-ui-react';
-import {compose, withState, withHandlers} from 'recompose';
+import {Container} from 'semantic-ui-react';
 import {string, func} from 'prop-types';
-import styled from 'styled-components';
 
 import {Styles} from '../constants';
+import {StyledSegment, StyledHeader, StyledText, StyledButton} from '../ui';
 
-const StyledSegment = styled(Segment)`
+const Intro = StyledSegment.extend`
   &&& {
     height: calc(100vh - 6rem);
-    padding: 1rem 0;
-    margin: 0;
     background-image: linear-gradient(
         rgba(20, 30, 48, 0.7),
         rgba(36, 59, 85, 0.7)
@@ -20,45 +17,32 @@ const StyledSegment = styled(Segment)`
     background-position: center;
     background-attachment: fixed;
     color: #fff;
-    border-radius: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 `;
 
-const Greeting = styled(Header)`
+const Greeting = StyledHeader.extend`
   &&& {
-    font-family: ${Styles.fonts.RALEWAY}, ${Styles.fonts.LATO}, sans-serif;
-    font-size: 4rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
   }
 `;
 
-const Description = styled(Header)`
+const Description = StyledText.extend`
   &&& {
-    font-family: ${Styles.fonts.RALEWAY}, ${Styles.fonts.LATO}, sans-serif;
-    font-size: 1.7rem;
-    font-weight: 300;
-    line-height: 1.5;
+    line-height: 1.6;
     margin-bottom: 1.5rem;
   }
 `;
 
-const ActionButton = styled(Button)`
-  &&& {
-    font-family: ${Styles.fonts.RALEWAY}, ${Styles.fonts.LATO}, sans-serif;
-  }
-`;
-
-const DownloadButton = ActionButton.extend`
+const DownloadButton = StyledButton.extend`
   &&& {
     margin-right: 2rem;
   }
 `;
 
-const ContactButton = ActionButton.extend`
+const ContactButton = StyledButton.extend`
   &&& {
     font-weight: 700;
 
@@ -72,12 +56,12 @@ const ContactButton = ActionButton.extend`
 `;
 
 const Jumbotron = () => (
-  <StyledSegment textAlign="center" vertical id="intro">
+  <Intro vertical id="intro">
     <Container text>
       <Greeting as="h1" inverted>
         {"hi. i'm tien, a full stack developer"}
       </Greeting>
-      <Description as="h2" inverted>
+      <Description as="h6" inverted>
         I specialize in front-end (HTML, CSS, Javascript, React), back-end
         (Node.JS, Express.JS) and also database (NoSQL, MongoDB). I love to
         build producing high quality responsive websites and always pay
@@ -102,7 +86,7 @@ const Jumbotron = () => (
         href="#contact"
       />
     </Container>
-  </StyledSegment>
+  </Intro>
 );
 
 export default Jumbotron;

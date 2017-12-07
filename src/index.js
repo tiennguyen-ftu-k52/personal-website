@@ -3,6 +3,10 @@ import {render} from 'react-dom';
 import 'semantic-ui-css/semantic.min.css';
 import {injectGlobal} from 'styled-components';
 
+import NavBar from './components/NavBar';
+import Jumbotron from './components/Jumbotron';
+import AboutMe from './components/AboutMe';
+
 injectGlobal`
   @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700");
   
@@ -16,19 +20,13 @@ injectGlobal`
     font-size: 1.6rem;
     line-height: 1.5;
   }
-  
-  h1, h2, h3, h4, h5, h6, p {
-    line-height: 1.5;
-  }
 `;
-
-import NavBar from './components/NavBar';
-import Jumbotron from './components/Jumbotron';
 
 const App = () => (
   <div>
     <NavBar />
     <Jumbotron />
+    <AboutMe />
   </div>
 );
 
