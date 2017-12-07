@@ -7,5 +7,7 @@ export default {
     NAVY: '#04111F',
     GRAY: 'rgba(255, 255, 255, 0.5)',
     RED: '#d6ac22',
+    WHITE: '#ffffff',
+    BLUE: '#1678c2',
   },
 };

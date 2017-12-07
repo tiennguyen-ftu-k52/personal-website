@@ -14,6 +14,11 @@ injectGlobal`
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p {
+    line-height: 1.5;
   }
 `;
 
