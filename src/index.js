@@ -8,6 +8,7 @@ import NavBar from './components/NavBar';
 import Jumbotron from './components/Jumbotron';
 import AboutMe from './components/AboutMe';
 import Experiences from './components/Experiences';
+import Skills from './components/Skills';
 
 injectGlobal`
   @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700");
@@ -30,6 +31,7 @@ const App = () => (
     <Jumbotron />
     <AboutMe />
     <Experiences />
+    <Skills />
   </div>
 );
 

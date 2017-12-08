@@ -1,0 +1,32 @@
+{
+  "front end": [
+    {"name": "HTML", "value": 100},
+    {"name": "CSS", "value": 90},
+    {"name": "SASS", "value": 70},
+    {"name": "Bootstrap", "value": 90},
+    {"name": "SemanticUI", "value": 80},
+    {"name": "MaterialUI", "value": 80},
+    {"name": "Javascript", "value": 90},
+    {"name": "ReactJS", "value": 90},
+    {"name": "AngularJS", "value": 50},
+    {"name": "VueJS", "value": 40}
+  ],
+  "back end": [
+    {"name": "NodeJS", "value": 90},
+    {"name": "ExpressJS", "value": 90},
+    {"name": "MeteorJS", "value": 80},
+    {"name": "MongoDB", "value": 90}
+  ],
+  "mobile development": [
+    {"name": "React Native", "value": 80},
+    {"name": "Objective-C", "value": 50},
+    {"name": "Swift", "value": 30}
+  ],
+  "desktop development": [
+    {"name": "Electron", "value": 80}
+  ],
+  "others": [
+    {"name": "Git", "value": 80},
+    {"name": "AWS", "value": 50}
+  ]
+}
