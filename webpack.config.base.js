@@ -120,7 +120,7 @@ export default {
       disable: false,
       allChunks: true,
     }),
-    new CopyWebpackPlugin([{ from: 'src/assets', to: 'assets' }]),
+    new CopyWebpackPlugin([{from: 'src/assets', to: 'assets'}]),
     new OpenBrowserPlugin({url: 'http://localhost:8080'}),
   ],
 };

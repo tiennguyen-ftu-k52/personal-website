@@ -1,0 +1,133 @@
+[
+  {
+    "_id": 0,
+    "timeline": "June 2017 - Present",
+    "position": "Full Stack Developer",
+    "type": "experience",
+    "company": {
+      "name": "Designveloper",
+      "type": "Outsourcing"
+    },
+    "descriptions": [
+      "Working as a full stack developer with many outsourcing projects: LuminPDF, TalentWasabi, DSV TimeTracking, Versaclimber, MVS, etc.",
+      "Pair programming & meeting daily",
+      "Communicate with client",
+      "Research, learn & apply new technologies for our projects"
+    ],
+    "technologies": [
+      "Web development",
+      "Mobile app development",
+      "CI/CD",
+      "Testing",
+      "Pair programing",
+      "Agile",
+      "Scrum",
+      "Javascript",
+      "React",
+      "React native",
+      "Redux",
+      "Meteor",
+      "Node.js",
+      "Express.js",
+      "Mongodb",
+      "GraphQL",
+      "Apollo",
+      "AWS",
+      "Git"
+    ],
+    "tools": [
+      "Trello",
+      "Jira",
+      "Confluence",
+      "Slack",
+      "Skype",
+      "Webstorm",
+      "Atom"
+    ]
+  },
+  {
+    "_id": 1,
+    "timeline": "October 2016 - May 2017",
+    "position": "Software Developer",
+    "type": "experience",
+    "company": {
+      "name": "Camos",
+      "type": "Product/Startup"
+    },
+    "descriptions": [
+      "Product: Camos Kiosk desktop application",
+      "Camos Kiosk is an instant photos printing app, which can directly print photos from your smartphone, instagram account and DSLR",
+      "Respond for all front end stuff",
+      "Admin for operation flow"
+    ],
+    "technologies": [
+      "Software development",
+      "Desktop app development",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "Javascript",
+      "Electron",
+      "React",
+      "Redux",
+      "Node.js",
+      "Express.js",
+      "REST API",
+      "Git"
+    ],
+    "tools": ["Webstorm", "Windows", "Postman"]
+  },
+  {
+    "_id": 2,
+    "timeline": "June 2016 - October 2016",
+    "position": "Web Developer",
+    "type": "experience",
+    "company": {
+      "name": "Learn By Myself"
+    },
+    "descriptions": ["Learn web development"],
+    "technologies": [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "Javascript",
+      "AngularJS",
+      "ReactJS"
+    ],
+    "tools": ["Webstorm", "Sublime Text", "Bracket"]
+  },
+  {
+    "_id": 3,
+    "timeline": "October 2015 - June 2016",
+    "position": "iOS Developer",
+    "type": "experience",
+    "company": {
+      "name": "Techmaster VN"
+    },
+    "descriptions": ["Learn iOS Development at Techmaster VN."],
+    "technologies": [
+      "iOS Development",
+      "Objective-C",
+      "Swift",
+      "Foundation",
+      "UIKit",
+      "CocoaPods"
+    ],
+    "tools": ["Xcode"]
+  },
+  {
+    "_id": 4,
+    "timeline": "September 2013 - October 2016",
+    "position": "Student - Business Administration",
+    "type": "education",
+    "company": {
+      "name": "Foreign Trade University"
+    },
+    "descriptions": ["Although my major is International Business Administration, I had learned web development when I was a FTUer"],
+    "technologies": [],
+    "tools": []
+  }
+]

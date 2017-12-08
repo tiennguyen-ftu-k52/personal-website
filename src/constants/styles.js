@@ -9,7 +9,8 @@ export default {
     GREY: '#f4f4f4',
     ORANGE: '#f2711c',
     WHITE: '#ffffff',
-    BLUE: '#1678c2',
+    BLUE: '#2185d0',
+    LIGHT_BLUE: '#01BAFD',
   },
   sizes: {
     h1: '4rem',
@@ -18,6 +19,6 @@ export default {
     h4: '2.2rem',
     h5: '2.0rem',
     h6: '1.7rem',
-    p: '1.6rem',
+    p: '1.4rem',
   },
 };

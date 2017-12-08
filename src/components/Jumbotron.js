@@ -84,7 +84,7 @@ const Jumbotron = () => (
         icon="comments outline"
         content="Hire Me"
         as="a"
-        href="#contact"
+        href="mailto:tiennguyen.ftu.k52@gmail.com"
       />
     </Container>
   </Intro>

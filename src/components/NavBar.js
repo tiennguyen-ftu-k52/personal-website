@@ -65,7 +65,7 @@ NavBar.propTypes = {
 export default compose(
   withState('activeItem', 'setActiveItem', 'home'),
   withHandlers({
-    onItemClick: ({setActiveItem}) => {
+    onItemClick({setActiveItem}) {
       return (e, {name}) => setActiveItem(name);
     },
     renderMenuItems: ({activeItem, onItemClick}) => {

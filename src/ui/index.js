@@ -11,7 +11,7 @@ const StyledSegment = styled(Segment)`
     padding: 7rem 0;
     border-radius: 0;
     border: none;
-    font-size: 1.6rem;
+    font-size: ${sizes.p};
   }
 `;
 
@@ -20,7 +20,8 @@ const StyledHeader = styled(Header)`
     font-family: ${fonts.RALEWAY}, ${fonts.LATO}, sans-serif;
     font-weight: 300;
     font-size: ${props => props.size || sizes[props.as]};
-    text-transform: uppercase;
+    text-transform: ${props =>
+      props.uppercase === 'false' ? '' : 'uppercase'};
   }
 `;
 
