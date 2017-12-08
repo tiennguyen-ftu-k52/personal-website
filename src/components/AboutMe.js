@@ -3,6 +3,13 @@ import styled from 'styled-components';
 import {Grid, GridRow, GridColumn, Container, Image} from 'semantic-ui-react';
 
 import {StyledSegment, StyledHeader} from '../ui';
+import {Styles} from '../constants';
+
+const AboutMeSegment = StyledSegment.extend`
+  &&& {
+    background-color: ${Styles.colors.GREY};
+  }
+`;
 
 const ProfileContainer = styled(Container)`
   &&& {
@@ -17,7 +24,7 @@ const InfoContainer = styled(Container)`
 `;
 
 const AboutMe = () => (
-  <StyledSegment id="about-me">
+  <AboutMeSegment id="about-me">
     <Grid columns={2} style={{border: 'none'}}>
       <GridRow>
         <GridColumn>
@@ -57,7 +64,7 @@ const AboutMe = () => (
         </GridColumn>
       </GridRow>
     </Grid>
-  </StyledSegment>
+  </AboutMeSegment>
 );
 
 export default AboutMe;

@@ -49,7 +49,7 @@ const ContactButton = StyledButton.extend`
     &.button:hover,
     &.button:active,
     &.button:focus {
-      background-color: ${Styles.colors.BLUE} !important;
+      background-color: ${Styles.colors.ORANGE} !important;
       color: ${Styles.colors.WHITE} !important;
     }
   }
@@ -59,7 +59,8 @@ const Jumbotron = () => (
   <Intro vertical id="intro">
     <Container text>
       <Greeting as="h1" inverted>
-        {"hi. i'm tien, a full stack developer"}
+        {"hi. i'm"} <span style={{color: Styles.colors.ORANGE}}>Tien</span>, a
+        full stack developer
       </Greeting>
       <Description as="h6" inverted>
         I specialize in front-end (HTML, CSS, Javascript, React), back-end
@@ -78,7 +79,7 @@ const Jumbotron = () => (
       />
       <ContactButton
         basic
-        color="blue"
+        color="orange"
         size="huge"
         icon="comments outline"
         content="Hire Me"

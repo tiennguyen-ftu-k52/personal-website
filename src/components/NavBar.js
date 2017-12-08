@@ -19,7 +19,7 @@ const StyledMenu = styled(Menu)`
 const StyledItem = styled(Menu.Item)`
   font-family: ${Styles.fonts.RALEWAY}, ${Styles.fonts.LATO}, sans-serif;
   background-color: ${Styles.colors.NAVY};
-  color: ${Styles.colors.GRAY} !important;
+  color: ${Styles.colors.LIGHT_GREY} !important;
   font-size: 1.6rem;
 
   &&&.active.item,
@@ -28,7 +28,7 @@ const StyledItem = styled(Menu.Item)`
   &&&:active,
   &&&:focus {
     background-color: ${Styles.colors.NAVY} !important;
-    color: ${Styles.colors.RED} !important;
+    color: ${Styles.colors.ORANGE} !important;
     font-weight: 600 !important;
   }
 `;
@@ -51,7 +51,7 @@ const NavBar = ({activeItem, onItemClick, renderMenuItems}) => (
       <StyledImg src={logoImg} alt="Meteor" />
     </StyledItem>
     <Menu.Menu position="right">
-      {renderMenuItems(activeItem, onItemClick)}
+      {renderMenuItems({activeItem, onItemClick})}
     </Menu.Menu>
   </StyledMenu>
 );
