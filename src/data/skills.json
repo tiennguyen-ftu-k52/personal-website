@@ -1,32 +1,32 @@
 {
   "front end": [
-    {"name": "HTML", "value": 100},
-    {"name": "CSS", "value": 90},
-    {"name": "SASS", "value": 70},
-    {"name": "Bootstrap", "value": 90},
-    {"name": "SemanticUI", "value": 80},
-    {"name": "MaterialUI", "value": 80},
-    {"name": "Javascript", "value": 90},
-    {"name": "ReactJS", "value": 90},
-    {"name": "AngularJS", "value": 50},
-    {"name": "VueJS", "value": 40}
+    {"name": "HTML5", "value": 100, "icon": "devicon-html5-plain"},
+    {"name": "CSS3", "value": 90, "icon": "devicon-css3-plain"},
+    {"name": "SASS", "value": 70, "icon": "devicon-sass-original"},
+    {"name": "Bootstrap", "value": 90, "icon": "devicon-bootstrap-plain"},
+    {"name": "SemanticUI", "value": 80, "icon": "devicon-react-original"},
+    {"name": "MaterialUI", "value": 80, "icon": "devicon-react-original"},
+    {"name": "Javascript", "value": 90, "icon": "devicon-javascript-plain"},
+    {"name": "ReactJS", "value": 90, "icon": "devicon-react-original"},
+    {"name": "AngularJS", "value": 50, "icon": "devicon-angularjs-plain"},
+    {"name": "VueJS", "value": 40, "icon": "devicon-vuejs-plain"}
   ],
   "back end": [
-    {"name": "NodeJS", "value": 90},
-    {"name": "ExpressJS", "value": 90},
-    {"name": "MeteorJS", "value": 80},
-    {"name": "MongoDB", "value": 90}
+    {"name": "NodeJS", "value": 90, "icon": "devicon-nodejs-plain"},
+    {"name": "ExpressJS", "value": 90, "icon": "devicon-express-original"},
+    {"name": "MeteorJS", "value": 80, "icon": "devicon-meteor-plain"},
+    {"name": "MongoDB", "value": 90, "icon": "devicon-mongodb-plain"}
   ],
   "mobile development": [
-    {"name": "React Native", "value": 80},
-    {"name": "Objective-C", "value": 50},
-    {"name": "Swift", "value": 30}
+    {"name": "React Native", "value": 80, "icon": "devicon-react-original"},
+    {"name": "Objective-C", "value": 50, "icon": "devicon-apple-original"},
+    {"name": "Swift", "value": 30, "icon": "devicon-swift-plain"}
   ],
   "desktop development": [
-    {"name": "Electron", "value": 80}
+    {"name": "Electron", "value": 80, "icon": "devicon-atom-original"}
   ],
   "others": [
-    {"name": "Git", "value": 80},
-    {"name": "AWS", "value": 50}
+    {"name": "Git", "value": 80, "icon": "devicon-git-plain"},
+    {"name": "AWS", "value": 50, "icon": "devicon-amazonwebservices-original"}
   ]
 }

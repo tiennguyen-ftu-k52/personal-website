@@ -39,21 +39,21 @@ const Skills = ({renderSkills}) => (
       <Grid columns={2}>
         <GridRow>
           <GridColumn>
-            <StyledHeader as="h3" content="front end" />
+            <SkillsHeader as="h3" content="front end" />
             {renderSkills(SkillsData['front end'])}
           </GridColumn>
           <GridColumn>
-            <StyledHeader as="h3" content="back end" />
+            <SkillsHeader as="h3" content="back end" />
             {renderSkills(SkillsData['back end'])}
           </GridColumn>
         </GridRow>
         <GridRow>
           <GridColumn>
-            <StyledHeader as="h3" content="mobile development" />
+            <SkillsHeader as="h3" content="mobile development" />
             {renderSkills(SkillsData['mobile development'])}
           </GridColumn>
           <GridColumn>
-            <StyledHeader as="h3" content="desktop development" />
+            <SkillsHeader as="h3" content="desktop development" />
             {renderSkills(SkillsData['desktop development'])}
           </GridColumn>
         </GridRow>
@@ -80,7 +80,7 @@ export default compose(
           return skills.map(skill => (
             <div key={skill.name}>
               <StyledHeader as="h6" uppercase="false">
-                {skill.name}
+                <i className={`${skill.icon} colored`} />{' '}{skill.name}
               </StyledHeader>
               <SkillsProgress
                 size="small"

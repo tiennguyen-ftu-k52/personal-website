@@ -9,9 +9,15 @@ import Jumbotron from './components/Jumbotron';
 import AboutMe from './components/AboutMe';
 import Experiences from './components/Experiences';
 import Skills from './components/Skills';
+import Others from './components/Others';
 
 injectGlobal`
   @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700");
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/devicon/2.2/devicon.min.css");
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/devicon/2.2/fonts/devicon.eot");
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/devicon/2.2/fonts/devicon.svg");
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/devicon/2.2/fonts/devicon.ttf");
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/devicon/2.2/fonts/devicon.woff");
   
   html {
     font-size: 62.5%;
@@ -32,6 +38,7 @@ const App = () => (
     <AboutMe />
     <Experiences />
     <Skills />
+    <Others />
   </div>
 );
 

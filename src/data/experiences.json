@@ -56,7 +56,7 @@
     },
     "descriptions": [
       "Product: Camos Kiosk desktop application",
-      "Camos Kiosk is an instant photos printing app, which can directly print photos from your smartphone, instagram account and DSLR",
+      "Camos Kiosk is an instant photos printing app, which can directly print photos from your smartphone, instagram account or DSLR",
       "Respond for all front end stuff",
       "Admin for operation flow"
     ],
@@ -129,7 +129,7 @@
       "name": "Foreign Trade University",
       "type": ""
     },
-    "descriptions": ["Although my major is International Business Administration, I had learned web development when I was a FTUer"],
+    "descriptions": ["Although my major is International Business Administration, I had learned web development when I was a student"],
     "technologies": [],
     "tools": []
   }
