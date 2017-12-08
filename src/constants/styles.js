@@ -9,6 +9,7 @@ export default {
     GREY: '#f4f4f4',
     ORANGE: '#f2711c',
     WHITE: '#ffffff',
+    BLACK: '#000000',
     BLUE: '#2185d0',
     LIGHT_BLUE: '#01BAFD',
   },

@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "0",
+    "clientName": "Alberto Duncan",
+    "clientImg": "/assets/images/clients/customer-1.jpg",
+    "quote":
+      "Working with Tien was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, he added enhancements and improvements that resulted in a better end product for us and our clients."
+  },
+  {
+    "_id": "1",
+    "clientName": "Joana Silva",
+    "clientImg": "/assets/images/clients/customer-2.jpg",
+    "quote":
+      "We have the fortune of working with Tien on a very regular basis. Every single project is done in a timely fashion and is delivered exactly as is outlined. Beyond that, his development skills and expertise make him an invaluable part of our process. We absolutely offer our highest possible recommendation."
+  },
+  {
+    "_id": "2",
+    "clientName": "Milton Chapman",
+    "clientImg": "/assets/images/clients/customer-3.jpg",
+    "quote":
+      "Tien has done a fantastic job overall. Not only the site is to design, the code is very clean and slick. Love the way he achieved the translations portion of the site."
+  }
+]

@@ -11,6 +11,7 @@ import AboutMe from './components/AboutMe';
 import Experiences from './components/Experiences';
 import Skills from './components/Skills';
 import Others from './components/Others';
+import References from './components/References';
 
 injectGlobal`
   @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700");
@@ -40,6 +41,7 @@ const App = () => (
     <Experiences />
     <Skills />
     <Others />
+    <References />
   </div>
 );
 
