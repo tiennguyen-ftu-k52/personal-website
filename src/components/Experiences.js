@@ -61,7 +61,7 @@ const TechLabel = styled(Label)`
 `;
 
 const Experiences = ({renderWorkExperiences}) => (
-  <ExperienceSegment>
+  <ExperienceSegment id="work-experience">
     <Container>
       <StyledHeader as="h2" content="work experiences & education" />
       <ExperiencesTimeline>{renderWorkExperiences()}</ExperiencesTimeline>

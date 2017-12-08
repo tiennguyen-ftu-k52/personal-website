@@ -19,7 +19,7 @@ injectGlobal`
   body {
     font-family: 'Raleway', 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 1.5;
   }
 `;

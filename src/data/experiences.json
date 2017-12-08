@@ -83,7 +83,8 @@
     "position": "Web Developer",
     "type": "experience",
     "company": {
-      "name": "Learn By Myself"
+      "name": "Learn By Myself",
+      "type": ""
     },
     "descriptions": ["Learn web development"],
     "technologies": [
@@ -105,7 +106,8 @@
     "position": "iOS Developer",
     "type": "experience",
     "company": {
-      "name": "Techmaster VN"
+      "name": "Techmaster VN",
+      "type": ""
     },
     "descriptions": ["Learn iOS Development at Techmaster VN."],
     "technologies": [
@@ -124,7 +126,8 @@
     "position": "Student - Business Administration",
     "type": "education",
     "company": {
-      "name": "Foreign Trade University"
+      "name": "Foreign Trade University",
+      "type": ""
     },
     "descriptions": ["Although my major is International Business Administration, I had learned web development when I was a FTUer"],
     "technologies": [],
