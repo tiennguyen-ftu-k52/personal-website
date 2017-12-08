@@ -2,6 +2,7 @@ import React from 'react';
 import {render} from 'react-dom';
 import 'react-vertical-timeline-component/style.min.css';
 import 'semantic-ui-css/semantic.min.css';
+import 'react-circular-progressbar/docs/styles.css';
 import {injectGlobal} from 'styled-components';
 
 import NavBar from './components/NavBar';

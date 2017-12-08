@@ -80,7 +80,7 @@ export default compose(
           return skills.map(skill => (
             <div key={skill.name}>
               <StyledHeader as="h6" uppercase="false">
-                <i className={`${skill.icon} colored`} />{' '}{skill.name}
+                <i className={`${skill.icon} colored`} /> {skill.name}
               </StyledHeader>
               <SkillsProgress
                 size="small"
