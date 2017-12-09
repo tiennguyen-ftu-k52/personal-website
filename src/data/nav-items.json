@@ -7,6 +7,11 @@
     {"_id": 4, "name": "contact", "link": "#contact"}
   ],
   "socials": [
-
+    {"_id": 0, "name": "github", "link": "https://github.com/tiennguyenftu?tab=repositories"},
+    {"_id": 1, "name": "gitlab", "link": "https://gitlab.com/users/tiennguyenftu/projects"},
+    {"_id": 2, "name": "linkedin", "link": "https://www.linkedin.com/in/tien-nguyen-ftu/"},
+    {"_id": 3, "name": "facebook f", "link": "https://www.facebook.com/minh.tien.90260"},
+    {"_id": 4, "name": "twitter", "link": "https://twitter.com/tiennguyenjvz1?lang=en"},
+    {"_id": 5, "name": "pinterest", "link": "https://www.pinterest.com/tiennguyenminh2/"}
   ]
 }

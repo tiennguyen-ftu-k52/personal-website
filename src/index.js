@@ -13,6 +13,7 @@ import Skills from './components/Skills';
 import Others from './components/Others';
 import References from './components/References';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 injectGlobal`
   @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700");
@@ -44,6 +45,7 @@ const App = () => (
     <Others />
     <References />
     <Contact />
+    <Footer />
   </div>
 );
 
