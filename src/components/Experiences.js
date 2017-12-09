@@ -126,7 +126,12 @@ export default compose(
             key={ex._id}
             date={ex.timeline}
             position={ex._id % 2 === 0 ? 'left' : 'right'}
-            icon={<Icon name="suitcase" size="large" />}
+            icon={
+              <Icon
+                name={ex.type === 'experience' ? 'suitcase' : 'student'}
+                size="large"
+              />
+            }
             iconStyle={{
               background: Styles.colors.BLUE,
               color: Styles.colors.WHITE,

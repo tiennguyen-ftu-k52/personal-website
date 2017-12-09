@@ -5,6 +5,7 @@ export default {
   },
   colors: {
     NAVY: '#04111F',
+    LIGHT_NAVY: '#0f283e',
     LIGHT_GREY: 'rgba(255, 255, 255, 0.5)',
     GREY: '#f4f4f4',
     ORANGE: '#f2711c',
