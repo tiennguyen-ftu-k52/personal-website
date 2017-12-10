@@ -11,6 +11,7 @@ import AboutMe from './components/AboutMe';
 import Experiences from './components/Experiences';
 import Skills from './components/Skills';
 import Others from './components/Others';
+import Projects from './components/Projects';
 import References from './components/References';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -43,6 +44,7 @@ const App = () => (
     <Experiences />
     <Skills />
     <Others />
+    <Projects />
     <References />
     <Contact />
     <Footer />

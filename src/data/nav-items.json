@@ -2,7 +2,7 @@
   "sections": [
     {"_id": 0, "name": "about me", "link": "#about-me"},
     {"_id": 1, "name": "work experience", "link": "#work-experience"},
-    {"_id": 2, "name": "works", "link": "#works"},
+    {"_id": 2, "name": "projects", "link": "#projects"},
     {"_id": 3, "name": "references", "link": "#references"},
     {"_id": 4, "name": "contact", "link": "#contact"}
   ],

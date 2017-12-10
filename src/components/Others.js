@@ -15,6 +15,8 @@ import {Styles} from '../constants';
 
 const OthersSegment = StyledSegment.extend`
   &&& {
+    background-color: ${Styles.colors.GREY};
+
     .CircularProgressbar-text {
       font-size: ${Styles.sizes.p};
       fill: ${Styles.colors.BLUE};

@@ -1,0 +1,52 @@
+[
+  {
+    "_id": 0,
+    "name": "LuminPDF",
+    "type": "r",
+    "description":
+      "LuminPDF is an awesome web application for viewing, editing & sharing PDF files in the cloud. It's currently have a very large amount of users",
+    "link": "https://www.luminpdf.com/",
+    "image": "/assets/images/projects/luminpdf.jpg",
+    "source": ""
+  },
+  {
+    "_id": 1,
+    "name": "LuminTools",
+    "type": "r",
+    "description":
+      "LuminTools provides a set of useful tools to help you to control your PDF document, such as convert, compress, split/merge or unlock, etc.",
+    "link": "https://tools.luminpdf.com/",
+    "image": "/assets/images/projects/lumintools.png",
+    "source": ""
+  },
+  {
+    "_id": 2,
+    "name": "Camos App",
+    "type": "r",
+    "description":
+      "A desktop application written in Electron, which can instantly print polaroid photos from your smartphone gallery, Instagram account or DSLR camera",
+    "link": "https://camos.vn/",
+    "image": "/assets/images/projects/camos.png",
+    "source": ""
+  },
+  {
+    "_id": 3,
+    "name": "Victoria's Secret",
+    "type": "p",
+    "description":
+      "An online e-commerce website written in NodeJS, using ExpressJS, PassportJS, Stripe & Bootstrap",
+    "link": "https://t-e-commerce.herokuapp.com/",
+    "image": "/assets/images/projects/victoria-secret.jpg",
+    "source": "https://github.com/tiennguyenftu/e-commerce"
+  },
+  {
+    "_id": 4,
+    "name": "Movy",
+    "type": "p",
+    "description":
+      "A React web application for fetching movies data using The Movie Database (TMDb) API",
+    "link": "https://gitlab.com/tiennguyenftu/tien-nguyen-react",
+    "image": "/assets/images/projects/tmdb.jpg",
+    "source": "https://gitlab.com/tiennguyenftu/tien-nguyen-react"
+  }
+]

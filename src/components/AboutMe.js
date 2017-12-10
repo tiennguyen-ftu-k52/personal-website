@@ -55,7 +55,7 @@ const AboutMe = () => (
               <b>Email</b>: tiennguyen.ftu.k52@gmail.com
             </p>
             <p>
-              <b>Github</b>: tiennguyen-ftu-k52
+              <b>Github</b>: tiennguyenftu
             </p>
             <p>
               <b>Address</b>: Ho Chi Minh City, Vietnam
