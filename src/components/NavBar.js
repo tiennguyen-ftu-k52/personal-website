@@ -51,7 +51,7 @@ const NavBar = ({activeItem, onItemClick, renderMenuItems}) => (
       <StyledImg src={logoImg} alt="Meteor" />
     </StyledItem>
     <Menu.Menu position="right">
-      {renderMenuItems({activeItem, onItemClick})}
+      {renderMenuItems(NavItemsData.sections)}
     </Menu.Menu>
   </StyledMenu>
 );
@@ -68,9 +68,11 @@ export default compose(
     onItemClick({setActiveItem}) {
       return (e, {name}) => setActiveItem(name);
     },
+  }),
+  withHandlers({
     renderMenuItems: ({activeItem, onItemClick}) => {
-      return () =>
-        NavItemsData.sections.map(item => (
+      return items =>
+        items.map(item => (
           <StyledItem
             name={item.name}
             active={activeItem === item.name}
