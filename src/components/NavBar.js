@@ -1,5 +1,5 @@
 import React from 'react';
-import {Menu} from 'semantic-ui-react';
+import {Menu, MenuItem} from 'semantic-ui-react';
 import {compose, withState, withHandlers} from 'recompose';
 import {string, func} from 'prop-types';
 import styled from 'styled-components';
@@ -16,7 +16,7 @@ const StyledMenu = styled(Menu)`
   }
 `;
 
-const StyledItem = styled(Menu.Item)`
+const StyledItem = styled(MenuItem)`
   font-family: ${Styles.fonts.RALEWAY}, ${Styles.fonts.LATO}, sans-serif;
   background-color: ${Styles.colors.NAVY};
   color: ${Styles.colors.LIGHT_GREY} !important;
