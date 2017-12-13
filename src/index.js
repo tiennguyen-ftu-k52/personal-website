@@ -34,6 +34,10 @@ injectGlobal`
     font-size: 1.4rem;
     line-height: 1.5;
   }
+  
+  @media only screen and (max-width: 767) {
+    font-size: 8px;
+  }
 `;
 
 const App = () => (

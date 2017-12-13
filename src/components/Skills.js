@@ -36,29 +36,29 @@ const Skills = ({renderSkills}) => (
   <SkillsSegment>
     <Container>
       <SkillsHeader as="h2" content="skills" />
-      <Grid columns={2}>
+      <Grid>
         <GridRow>
-          <GridColumn>
+          <GridColumn mobile={16} tablet={8} computer={8}>
             <SkillsHeader as="h3" content="front end" />
             {renderSkills(SkillsData['front end'])}
           </GridColumn>
-          <GridColumn>
+          <GridColumn mobile={16} tablet={8} computer={8}>
             <SkillsHeader as="h3" content="back end" />
             {renderSkills(SkillsData['back end'])}
           </GridColumn>
         </GridRow>
         <GridRow>
-          <GridColumn>
+          <GridColumn mobile={16} tablet={8} computer={8}>
             <SkillsHeader as="h3" content="mobile development" />
             {renderSkills(SkillsData['mobile development'])}
           </GridColumn>
-          <GridColumn>
+          <GridColumn mobile={16} tablet={8} computer={8}>
             <SkillsHeader as="h3" content="desktop development" />
             {renderSkills(SkillsData['desktop development'])}
           </GridColumn>
         </GridRow>
         <GridRow>
-          <GridColumn>
+          <GridColumn mobile={16} tablet={8} computer={8}>
             <StyledHeader as="h3" content="others" />
             {renderSkills(SkillsData['others'])}
           </GridColumn>

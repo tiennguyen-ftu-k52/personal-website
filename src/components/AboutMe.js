@@ -25,9 +25,9 @@ const InfoContainer = styled(Container)`
 
 const AboutMe = () => (
   <AboutMeSegment id="about-me">
-    <Grid columns={2} style={{border: 'none'}}>
+    <Grid style={{border: 'none'}}>
       <GridRow>
-        <GridColumn>
+        <GridColumn mobile={16} tablet={8} computer={8}>
           <ProfileContainer>
             <Image
               src="/assets/images/profile.jpg"
@@ -39,7 +39,7 @@ const AboutMe = () => (
             />
           </ProfileContainer>
         </GridColumn>
-        <GridColumn>
+        <GridColumn mobile={16} tablet={8} computer={8}>
           <InfoContainer>
             <StyledHeader as="h2" content="Personal Info" />
             <p>

@@ -89,10 +89,10 @@ export default compose(
       return quotes => {
         if (quotes && quotes.length) {
           return (
-            <Grid columns={quotes.length}>
+            <Grid>
               <GridRow>
                 {quotes.map(quote => (
-                  <GridColumn key={quote._id}>
+                  <GridColumn key={quote._id} mobile={16} tablet={8} computer={5}>
                     <ReferencesBlockquote>
                       {quote.quote}
                       <ReferencesCite>

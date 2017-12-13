@@ -1,7 +1,6 @@
 import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
-import OpenBrowserPlugin from 'open-browser-webpack-plugin';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
 
 const paths = {
@@ -115,12 +114,6 @@ export default {
     new HtmlWebpackPlugin({
       template: path.join(paths.SRC, 'index.html'),
     }),
-    new ExtractTextPlugin({
-      filename: './styles/style.css',
-      disable: false,
-      allChunks: true,
-    }),
     new CopyWebpackPlugin([{from: 'src/assets', to: 'assets'}]),
-    new OpenBrowserPlugin({url: 'http://localhost:8080'}),
   ],
 };

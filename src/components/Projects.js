@@ -42,9 +42,9 @@ const Projects = () => (
   <StyledSegment id="projects">
     <Container>
       <ProjectsHeader as="h2" content="my latest works" />
-      <Grid columns={4}>
+      <Grid container>
         {ProjectsData.map(project => (
-          <GridColumn key={project._id}>
+          <GridColumn key={project._id} mobile={16} tablet={8} computer={4}>
             <ProjectCard as="a" href={project.link} target="_blank">
               <Image src={project.image} />
               <CardContent>

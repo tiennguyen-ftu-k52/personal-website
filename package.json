@@ -6,11 +6,13 @@
   "author": "Tien Nguyen",
   "license": "MIT",
   "scripts": {
-    "dev": "babel-node node_modules/.bin/webpack-dev-server --config=webpack.config.dev.js",
-    "build": "webpack",
+    "dev": "babel-node node_modules/.bin/webpack-dev-server --config webpack.config.dev.js",
+    "prod": "cross-env npm run clean && babel-node node_modules/.bin/webpack --config webpack.config.prod.js --progress --profile --colors",
+    "clean": "rimraf dist",
     "prettier": "prettier --write '{**/*.js,!(node*)**/*.js}' --single-quote --trailing-comma all --bracket-spacing=false --parser flow --jsx-bracket-same-line"
   },
   "devDependencies": {
+    "autoprefixer": "^7.2.2",
     "babel-eslint": "^8.0.3",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
@@ -26,7 +28,9 @@
     "node-sass": "^4.7.2",
     "open-browser-webpack-plugin": "0.0.5",
     "prettier": "^1.9.0",
+    "rimraf": "^2.6.2",
     "sass-loader": "^6.0.6",
+    "stats-webpack-plugin": "^0.6.1",
     "style-loader": "^0.19.0",
     "url-loader": "^0.6.2",
     "webpack": "^3.10.0",
@@ -35,6 +39,7 @@
   },
   "dependencies": {
     "babel-core": "^6.26.0",
+    "cross-env": "^5.1.1",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-circular-progressbar": "^0.5.0",

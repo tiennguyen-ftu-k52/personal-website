@@ -59,3 +59,8 @@ typings/
 
 # IntelliJ
 .idea/
+
+# Deploy
+dist/
+
+.DS_Store

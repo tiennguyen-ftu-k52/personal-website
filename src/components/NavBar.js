@@ -6,7 +6,6 @@ import styled from 'styled-components';
 
 import NavItemsData from '../data/nav-items.json';
 import {Styles} from '../constants';
-import logoImg from '../assets/images/meteor-logo-white.png';
 
 const StyledMenu = styled(Menu)`
   &&& {
@@ -48,7 +47,7 @@ const NavBar = ({activeItem, onItemClick, renderMenuItems}) => (
       href="#intro"
       active={activeItem === 'home'}
       onClick={onItemClick}>
-      <StyledImg src={logoImg} alt="Meteor" />
+      <StyledImg src="/assets/images/meteor-logo-white.png" alt="Meteor" />
     </StyledItem>
     <Menu.Menu position="right">
       {renderMenuItems(NavItemsData.sections)}

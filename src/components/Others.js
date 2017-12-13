@@ -63,9 +63,9 @@ const HobbyButton = styled(Button)`
 const Others = () => (
   <OthersSegment>
     <Container>
-      <Grid columns={2}>
+      <Grid>
         <GridRow>
-          <GridColumn>
+          <GridColumn mobile={16} tablet={8} computer={8}>
             <OthersHeader as="h2" content="languages" />
             <LanguageCircularProgressbar
               percentage={100}
@@ -78,7 +78,7 @@ const Others = () => (
               textForPercentage={() => 'English'}
             />
           </GridColumn>
-          <GridColumn>
+          <GridColumn mobile={16} tablet={8} computer={8}>
             <OthersHeader as="h2" content="Hobbies & Interest" />
             <HobbyButton inverted>
               <Icon name="music" size="huge" />
