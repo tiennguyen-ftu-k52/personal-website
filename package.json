@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "babel-node node_modules/.bin/webpack-dev-server --config webpack.config.dev.js",
     "prod": "cross-env npm run clean && babel-node node_modules/.bin/webpack --config webpack.config.prod.js --progress --profile --colors",
+    "deploy": "scp -r ./dist root@138.197.41.225:/www/data",
     "clean": "rimraf dist",
     "prettier": "prettier --write '{**/*.js,!(node*)**/*.js}' --single-quote --trailing-comma all --bracket-spacing=false --parser flow --jsx-bracket-same-line"
   },
