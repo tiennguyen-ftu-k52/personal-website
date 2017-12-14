@@ -19,10 +19,6 @@ import Footer from './components/Footer';
 injectGlobal`
   @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700");
   @import url("https://cdnjs.cloudflare.com/ajax/libs/devicon/2.2/devicon.min.css");
-  @import url("https://cdnjs.cloudflare.com/ajax/libs/devicon/2.2/fonts/devicon.eot");
-  @import url("https://cdnjs.cloudflare.com/ajax/libs/devicon/2.2/fonts/devicon.svg");
-  @import url("https://cdnjs.cloudflare.com/ajax/libs/devicon/2.2/fonts/devicon.ttf");
-  @import url("https://cdnjs.cloudflare.com/ajax/libs/devicon/2.2/fonts/devicon.woff");
   
   html {
     font-size: 62.5%;
