@@ -74,7 +74,7 @@ const Jumbotron = () => (
         icon="download"
         content="Download My CV"
         as="a"
-        href="/assets/pdf/cv-en.pdf"
+        href="/assets/pdf/tien-nguyen-resume.pdf"
         target="_blank"
       />
       <ContactButton
