@@ -27,7 +27,7 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.5",
     "html-webpack-plugin": "git+https://github.com/jantimon/html-webpack-plugin.git",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.13.1",
     "open-browser-webpack-plugin": "0.0.5",
     "prettier": "^1.9.0",
     "rimraf": "^2.6.2",
